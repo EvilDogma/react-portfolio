@@ -16,9 +16,11 @@ function Landing() {
                 <div className="row justify-between">
                     {projects.map(project => (
                         <div className="col-6" key={project.id}>
-                        <Link to={`/project/${project.id}`}>
+                       
+                    
                         <Project project={project} />
-                        </Link>
+                        
+
                         </div>
                     ))}
                 </div>
